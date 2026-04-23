@@ -128,25 +128,39 @@ All plots are saved in the `/results` folder.
 ## Project Structure
 
 lr-from-scratch/
+
 │
+
 ├── src/
+
 │ ├── logistic_regression.py
+
 │ ├── preprocessing.py
+
 │ ├── evaluate.py
+
 │
 ├── train.py
+
 ├── requirements.txt
+
 ├── README.md
+
 │
+
 ├── results/
+
 │ ├── cost_plot.png
+
 │ ├── confusion_matrix.png
+
 │ ├── f1_vs_threshold.png
 
 
 ## How to Run?
 
 pip install -r requirements.txt
+
 python train.py
 
 --- 
