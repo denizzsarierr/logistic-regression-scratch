@@ -2,6 +2,7 @@
 This project is implementing Logistic Regression using NumPy**, without using Scikit-learn’s model implementation.
 
 The goal is to undersant mathematical and practical working of Logistic Regression, including gradient descent optimization, loss computation, and decision threshold tuning.
+
 ---
 
 ## Problem Statement
@@ -46,7 +47,8 @@ $$
 It outputs a probability value between 0 and 1.
 
 In the implementation, a small constant $( \epsilon )$ is used to clip predicted probabilities away from 0 and 1. 
-This prevents numerical instability in the logarithm function, since $( \log(0) ) $ is undefined.
+
+This prevents numerical instability in the logarithm function, since log(0) is undefined.
 
 ---
 
@@ -69,8 +71,6 @@ For logistic regression, the cost function is minimized using gradient descent.
 
 After derivation using the chain rule and sigmoid function, the gradients are:
 
----
-
 Weight Gradient:
 
 $$
@@ -84,7 +84,9 @@ $$
 $$
 
 The term $( \hat{y} - y )$ represents the prediction error.
+
 The gradients show how much each weight contributes to that error.
+
 Gradient descent updates parameters in the direction that reduces this error.
 
 ---
@@ -93,6 +95,7 @@ Gradient descent updates parameters in the direction that reduces this error.
 
 - Best Threshold: **0.4**
 - Best F1 Score: **0.6064**
+- Accuracy Score: **0.79**
 - Model evaluated using:
   - Accuracy
   - Precision
