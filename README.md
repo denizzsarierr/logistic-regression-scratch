@@ -170,6 +170,7 @@ python train.py
 - What is the logic behind basic learning model
 - Importance of feature scaling
 - Gradient descent optimization in practice (weight and bias updating)
+- Importance of vectorizing on efficiency, especially on large datasets.
 - Effect of decision threshold on classification performance
 - Analyzing confusion matrix
 - End-to-end ML pipeline design
