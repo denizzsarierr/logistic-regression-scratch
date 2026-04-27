@@ -3,6 +3,8 @@ This project is implementing Logistic Regression using NumPy**, without using Sc
 
 The goal is to undersant mathematical and practical working of Logistic Regression, including gradient descent optimization, loss computation, and decision threshold tuning.
 
+Dataset: Telco-Customer-Churn
+
 ---
 
 ## Problem Statement
